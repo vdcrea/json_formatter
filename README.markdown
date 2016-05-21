@@ -1,6 +1,8 @@
 # Json Formatter
 
-This extension provides Json encode formatting for fields.
+This extension provides Json encode formatting for fields. Two formats are provided: Json Encode and Json Encode Title to make capitalize the string as a title should be.
+
+In order to use this extension for inputs instead of textareas, you can use the [text box field extension](https://github.com/symphonists/textboxfield)
 
 ## Installation & Updating
 
