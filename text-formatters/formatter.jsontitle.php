@@ -5,12 +5,12 @@ Class FormatterJsonTitle extends TextFormatter{
 	}
 	public function run($string){
 
-		//original Title Case script © John Gruber <daringfireball.net>
-		//javascript port © David Gouch <individed.com>
-		//PHP port of the above by Kroc Camen <camendesign.com>
+		// original Title Case script © John Gruber <daringfireball.net>
+		// javascript port © David Gouch <individed.com>
+		// PHP port of the above by Kroc Camen <camendesign.com>
 
 		//remove HTML, storing it for later
-		//       HTML elements to ignore    | tags  | entities
+		// HTML elements to ignore    | tags  | entities
 		$regx = '/<(code|var)[^>]*>.*?<\/\1>|<[^>]+>|&\S+;/';
 		preg_match_all ($regx, $string, $html, PREG_OFFSET_CAPTURE);
 		$string = preg_replace ($regx, '', $string);
