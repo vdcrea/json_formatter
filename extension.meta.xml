@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="json_formatter" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+	<name>Json Formatter</name>
+	<description>Text formatter to json encode strings</description>
+	<repo type="github">https://github.com/vdcrea/json_formatter</repo>
+	<types>
+		<type>Text Formatters</type>
+	</types>
+	<authors>
+		<author>
+			<name github="vdcrea" symphony="vincentd">vincentd</name>
+		</author>
+		<author>
+			<name github="vdcrea">vdcrea</name>
+			<website>http://vdcrea.com</website>
+		</author>
+	</authors>
+    <releases>
+        <release version="0.0.1" date="2016-06-03" min="2.5.x" max="2.x.x">
+			- Inital Release
+		</release>
+    </releases>
+</extension>
