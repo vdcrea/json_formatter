@@ -38,10 +38,10 @@ Make sure to install the [Content Type Mapping extension][5] to create a new pag
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output
-    method="html"
+    method="xml"
     omit-xml-declaration="yes"
     encoding="UTF-8"
-    indent="no" />
+    indent="yes" />
 
 <xsl:template match="data">{
     "yourdata" : <xsl:value-of select="xpath/to/your/Json/formatted/field/value"/>
