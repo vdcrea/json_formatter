@@ -31,7 +31,7 @@ Information about [installing and updating extensions](http://getsymphony.com/le
 
 ## Output a Json Page from Symphony CMS
 
-Make sure to install the [Content Type Mapping extension][5] to create a new page with a 'json' type, and set your xsl template as a pure text output:
+Make sure to install the [Content Type Mapping extension][5] to create a new page with a `json` type, and set your xsl template as a pure text output:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
