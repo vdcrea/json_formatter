@@ -11,13 +11,13 @@ Three text formatters are available:
 In order to use the string formatters you will need to install the [text box field extension][4] so you can apply a text formatter to an input field.
 
 **Json String**  
-Escape invalid Json characters and save the value wrapped in quotes.
+Escape invalid Json characters and save the value wrapped by quotes.
 
 **Json Title**  
-Capitalize words as a title should be, escape invalid Json characters and save the value wrapped in quotes.
+Capitalize words as a title should be, escape invalid Json characters and save the value wrapped by quotes.
 
 **Json CommonMark**  
-Escape invalid Json characters and save the markup wrapped in quotes.
+Escape invalid Json characters and save the markup wrapped by quotes.
 
 
 ## Installation & Updating
@@ -45,8 +45,7 @@ Make sure to install the [Content Type Mapping extension][5] to create a new pag
 
 <xsl:template match="data">{
     "yourdata" : <xsl:value-of select="xpath/to/your/Json/formatted/field/value"/>
-}
-</xsl:template>
+}</xsl:template>
 ```
 
 [1]: http://commonmark.org/
