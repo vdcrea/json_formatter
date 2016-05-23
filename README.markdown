@@ -5,7 +5,7 @@ This extension saves input fields and markdown textareas to a Json encoded strin
 Three text formatters are available:
 
 - Json String for input fields (string formatter)
-- Json Title for input fields (string formatter)
+- Json Title for input fields (string formatted with title case)
 - Json CommonMark for textareas (markup formatter)
 
 **Dependencies** to use all formatters and output a Json page
