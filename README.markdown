@@ -1,14 +1,14 @@
 # Json Formatter
 
-This extension save input fields and markdown textareas to a Json encoded string, and makes easier the output of a Json page.
+This extension save input fields and markdown textareas to a Json encoded string (escaping invalid characters: single quote, quotes, backslash, and control characters like `\n` or `\t`), to make easier the output of a Json page.
 
 Three text formatters are available:
 
-- Json String for input fields
-- Json Title for input fields
-- Json CommonMark for textareas
+- Json String for input fields (string formatter)
+- Json Title for input fields (string formatter)
+- Json CommonMark for textareas (markup formatter)
 
-In order to use the string formatters you have to install the [text box field extension][4] so you can apply a text formatter for an input field.
+In order to use the string formatters you will need to install the [text box field extension][4] so you can apply a text formatter for an input field.
 
 **Json String**  
 Escape invalid Json characters and save the value wrapped in quotes.
