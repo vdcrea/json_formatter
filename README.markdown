@@ -8,8 +8,7 @@ Three text formatters are available:
 - Json Title for input fields (string formatter)
 - Json CommonMark for textareas (markup formatter)
 
-**Dependencies**  
-To configure a Json page
+**Dependencies** to use all formatters and output a Json page
 
 - [Text Box Field][4] to apply string text formatters to an input field
 - [Content Type Mapping][5] to set up a `json` page type with the right header
