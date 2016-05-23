@@ -8,16 +8,11 @@ Three text formatters are available:
 - Json Title for input fields (string formatter)
 - Json CommonMark for textareas (markup formatter)
 
-In order to use the string formatters you will need to install the [text box field extension][4] so you can apply a text formatter to an input field.
+**Dependencies**  
+To configure a Json page
 
-**Json String**  
-Escape invalid Json characters and save the value wrapped by quotes.
-
-**Json Title**  
-Capitalize words as a title should be, escape invalid Json characters and save the value wrapped by quotes.
-
-**Json CommonMark**  
-Escape invalid Json characters and save the markup wrapped by quotes.
+- [Text Box Field][4] to apply string text formatters to an input field
+- [Content Type Mapping][5] to set up a `json` page type with the right header
 
 
 ## Installation & Updating
@@ -31,7 +26,7 @@ Information about [installing and updating extensions](http://getsymphony.com/le
 
 ## Output a Json Page from Symphony CMS
 
-Make sure to install the [Content Type Mapping extension][5] to create a new page with a `json` type, and set your xsl template as a pure text output:
+Make sure to install the Content Type Mapping extension to create a new page with a `json` type, and set your xsl template as a pure text output:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
