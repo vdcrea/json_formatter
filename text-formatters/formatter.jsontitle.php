@@ -1,7 +1,7 @@
 <?php
 Class FormatterJsonTitle extends TextFormatter{
 	public function about(){
-		return array('name' => 'Json Encode Title');
+		return array('name' => 'Json String Title');
 	}
 	public function run($string){
 

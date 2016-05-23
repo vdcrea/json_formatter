@@ -1,7 +1,7 @@
 <?php
-Class FormatterJson extends TextFormatter{
+Class FormatterJsonString extends TextFormatter{
 	public function about(){
-		return array('name' => 'Json Encode');
+		return array('name' => 'Json String');
 	}
 	public function run($string){
 		$string = str_replace('&quot;', '"', $string);
