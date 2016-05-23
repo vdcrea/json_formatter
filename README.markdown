@@ -8,7 +8,7 @@ Three text formatters are available:
 - Json Title for input fields (string formatter)
 - Json CommonMark for textareas (markup formatter)
 
-In order to use the string formatters you will need to install the [text box field extension][4] so you can apply a text formatter for an input field.
+In order to use the string formatters you will need to install the [text box field extension][4] so you can apply a text formatter to an input field.
 
 **Json String**  
 Escape invalid Json characters and save the value wrapped in quotes.
