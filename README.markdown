@@ -1,6 +1,6 @@
 # Json Formatter
 
-This extension save input fields and markdown textareas to a Json encoded string (escaping invalid characters: single quote, quotes, backslash, and control characters like `\n` or `\t`), to make easier the output of a Json page.
+This extension saves input fields and markdown textareas to a Json encoded string (escaping invalid characters: single quote, quotes, backslash, and control characters like `\n` or `\t`), to make easier the output of a Json page.
 
 Three text formatters are available:
 
