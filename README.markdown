@@ -1,6 +1,6 @@
 # Json Formatter
 
-This extension save input fields content and markdown textareas to a json encoded string, and makes easier the output of a Json page.
+This extension save input fields and markdown textareas to a Json encoded string, and makes easier the output of a Json page.
 
 Three text formatters are available:
 
@@ -31,9 +31,7 @@ Information about [installing and updating extensions](http://getsymphony.com/le
 
 ## Output a Json Page from Symphony CMS
 
-Make sure to install the [Content Type Mapping extension][5] to create a new page with a 'json' type.
-
-Create a new page and set your xsl template as a pure text output:
+Make sure to install the [Content Type Mapping extension][5] to create a new page with a 'json' type, and set your xsl template as a pure text output:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
