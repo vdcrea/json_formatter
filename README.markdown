@@ -37,8 +37,6 @@ Make sure to install the [Content Type Mapping extension][5] to create a new pag
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:import href="../utilities/pagination.xsl"/>
-
 <xsl:output
     method="html"
     omit-xml-declaration="yes"
