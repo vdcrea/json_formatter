@@ -3,7 +3,7 @@
 use League\CommonMark\CommonMarkConverter;
 include('extensions/commonmark/vendor/autoload.php');
 
-class FormatterCommonMarkJson extends TextFormatter
+class FormatterJsonCommonMark extends TextFormatter
 {
     private $converter;
 
